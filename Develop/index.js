@@ -12,11 +12,11 @@ const questions = [
     },
     {
         type: "input",
-        message: "What is your E-mail?"
+        message: "What is your E-mail?",
         name: "email"
     },
     {
-        type: "inpur"
+        type: "input",
         message: "Please write a description of your project:",
         name: "description"
     },
