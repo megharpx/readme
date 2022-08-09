@@ -7,7 +7,7 @@ const generateMarkdown = require ('./utils/generateMarkdown');
 const questions = [
     {
         type: "input",
-        message: "What is your GitHub sername?",
+        message: "What is your GitHub username?",
         name: "username"
     },
     {
@@ -59,7 +59,7 @@ function writeToFile(fileName, data) {
     if (error) {
         return console.log(error)
     }
-    console.loh('success')
+    console.log('success')
    });
 }
 // TODO: Create a function to initialize program
